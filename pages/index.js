@@ -2,14 +2,13 @@ import Layout from '../components/Layout';
 
 export default function HomePage() {
   return (
-    <Layout>
-      <h1 className="text-8xl font-extrabold mb-4 tracking-[-0.25em] text-orange-400">HD</h1>
-      <p className="text-xl font-light text-orange-100 font-nav">About</p>
-      <p className="text-xl font-light text-orange-100 font-nav">Projects</p>
-      <p className="text-xl font-light text-orange-100 font-nav">Experience</p>
-      <p className="text-xl font-light text-orange-100 font-nav">Coursework</p>
-      <p className="text-xl font-light text-orange-100 font-nav">Contact</p>
-
+    <Layout>        
+        <section className='mt-20'>
+            <h2 className='text-3xl font-bold'> Hey, I&apos;m Hayden</h2>
+            <p className='mt-4 text-xl'>I just graduated with a B.S. in Computer Science from UCLA.<br /> I&apos;m looking for entry level positions in technical roles.<br /> I am most familiar with JavaScript and Python. </p>
+            <p className='mt-4 text-xl'>Some more useless information about me.</p>
+            <p className='mt-4 text-xl'>I like to do X in my free time.</p>
+        </section>
     </Layout>
   );
 }

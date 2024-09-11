@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         'bg-dark': '#1B1918',
+        'goldenrod': "#FFC000",
       }
       
     },

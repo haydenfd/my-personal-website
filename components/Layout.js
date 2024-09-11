@@ -1,9 +1,16 @@
+import { Navbar } from "./Navbar";
+import { Footer } from "./Footer"; 
+
 export default function Layout({ children }) {
     return (
-      <div className="min-h-screen bg-bg-dark">
-        <div className="max-w-[80%] mx-auto min-h-screen py-10 px-5  shadow-lg text-white">
-          {children}
-        </div>
+        <div className="flex flex-col min-h-screen bg-bg-dark">
+            <Navbar />
+            
+            <div className="flex-grow w-[30%] mx-auto shadow-lg text-white mt-[6em]">
+            {children}
+            </div>
+
+            <Footer className="w-full text-center py-4" />
       </div>
     );
   }
