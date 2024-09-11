@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        nav: ['Ubuntu', ...defaultTheme.fontFamily.mono],
       },
       colors: {
         'bg-dark': '#1B1918',
