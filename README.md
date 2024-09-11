@@ -2,4 +2,4 @@
 
 Personal website, built using Next.js, Tailwind, and Netlify. 
 
-[www.haydendsouza.com] www.haydendsouza.com.
+www.haydendsouza.com.
