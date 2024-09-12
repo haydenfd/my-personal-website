@@ -13,3 +13,7 @@
  .section-title {
     @apply font-extrabold text-4xl;
  }
+
+ .section-subtitle {
+    @apply font-bold text-3xl;
+ }

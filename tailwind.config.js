@@ -13,7 +13,7 @@ module.exports = {
         varela: ['Varela', ...defaultTheme.fontFamily.mono],
       },
       colors: {
-        'bg-dark': '#1B1918',
+        'bg-dark': '#171717',
         'goldenrod': "#FFC000",
         'primary-gold': "#FACE72",
         "card-dark": "#1F1F1F",
