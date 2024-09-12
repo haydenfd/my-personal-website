@@ -11,6 +11,7 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         nav: ['Ubuntu', ...defaultTheme.fontFamily.mono],
         varela: ['Varela', ...defaultTheme.fontFamily.mono],
+        'roboto-condensed': ['IBM Plex Sans'],
       },
       colors: {
         'bg-dark': '#171717',

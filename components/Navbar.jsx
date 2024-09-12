@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className="text-white text-lg font-bold">
               <Link href="/"><h1 className="text-6xl font-extrabold tracking-[-0.25em] text-goldenrod">HD</h1></Link>
             </div>
-            <div className="space-x-6 font-varela">
+            <div className="space-x-6 font-roboto-condensed">
               <Link href="/experience" className="text-primary-gold text-xl p-2 border-[0.25px] border-primary-gold rounded-md">
                 Experience
               </Link>

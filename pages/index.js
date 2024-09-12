@@ -22,8 +22,8 @@ export default function HomePage() {
                 {projects.map((project) => (
                 <div key={project.id} className="p-4 bg-card-dark border-card-border border-2 rounded-md w-[30%] mb-4">
                     <div className="w-full flex flex-row justify-between">
-                        <h1 className="text-lg">{project.title}</h1>
-                        <div className="flex items-center gap-8">
+                        <h1 className="text-xl">{project.title}</h1>
+                        <div className="flex items-center gap-6">
                             <a href="https://www.linkedin.com/in/hayden-dsouza/" className="" target="_blank" rel="noopener norefferer">
                                 <AiFillGithub className="scale-[175%] hover:scale-[200%]"/>
                             </a>                        
@@ -37,7 +37,7 @@ export default function HomePage() {
 
                         </div>
                     </div>
-                    <p className="text-md text-slate-400">{project.description}</p>
+                    <p className="text-lg text-slate-400 mt-2">{project.description}</p>
                 </div>
                 ))}
             </div>                                          
