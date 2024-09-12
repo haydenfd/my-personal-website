@@ -9,3 +9,7 @@
  * {
     box-sizing: border-box;
  }
+
+ .section-title {
+    @apply font-extrabold text-4xl;
+ }

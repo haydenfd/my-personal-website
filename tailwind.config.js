@@ -15,6 +15,9 @@ module.exports = {
       colors: {
         'bg-dark': '#1B1918',
         'goldenrod': "#FFC000",
+        'primary-gold': "#FACE72",
+        "card-dark": "#1F1F1F",
+        "card-border": "#525252"
       }
       
     },

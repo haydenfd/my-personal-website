@@ -17,13 +17,13 @@ export const Footer = () => {
       };
     
     return (
-      <footer className=" w-[30%] py-8 mx-auto text-center text-white">
+      <footer className=" w-[50%] py-8 mx-auto text-center text-white">
         <div className="container mx-auto">
           <p className="text-md mb-10">
             © {new Date().getFullYear()} Hayden D&apos;Souza
           </p>
           <div className="mt-2 flex justify-center space-x-8">
-            <a href="/resume.pdf" target="_blank" rel="noopener norefferer">
+            <a href="/resume.pdf" target="_blank" rel="noopener noresfferer">
                 <IoDocumentTextSharp className="scale-[175%] hover:scale-[200%]"/>
             </a>
             <a href="https://github.com/haydenfd" className="" target="_blank" rel="noopener norefferer">
