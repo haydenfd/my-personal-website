@@ -17,3 +17,12 @@
  .section-subtitle {
     @apply font-bold text-3xl;
  }
+
+
+ .section-button {
+    @apply px-2 py-3 rounded-lg text-lg  text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white;
+ }
+
+ .navbar-section-btn {
+    @apply border-transparent text-xl p-2 border-[0.25px] text-primary-yellow-color rounded-md uppercase; 
+ }

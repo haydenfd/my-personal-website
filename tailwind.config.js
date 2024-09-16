@@ -18,7 +18,10 @@ module.exports = {
         'goldenrod': "#FFC000",
         'primary-gold': "#FACE72",
         "card-dark": "#1F1F1F",
-        "card-border": "#525252"
+        "card-border": "#525252",
+        "muted-gray-color": "#999",
+        "primary-yellow-color": "#fcd37a",
+        "base-button-color": "#bbb",
       }
       
     },

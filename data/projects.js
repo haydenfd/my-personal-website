@@ -8,23 +8,23 @@ export const projects = [
     },
     { 
         id: 2, 
-        title: 'Seatcheck @ UCLA', 
+        title: 'Seatcheck', 
         description: 'Web app that scrapes UCLA enrollment website and notifies students (via email) when a class spot opens up',
         github: 'https://github.com/haydenfd/seatcheck',
         url: 'http://seatcheck.s3-website-us-west-1.amazonaws.com/',
     },
     { 
         id: 3, 
-        title: 'Duplify', 
-        description: 'Test 123',
-        github: 'https://github.com/haydenfd/duplify-app',
+        title: 'NBA Rank 5', 
+        description: 'Web app game where users rank five random NBA players in descending order based on an arbitrary statistic',
+        github: 'https://github.com/haydenfd/nba-rank-five',
     },
     { 
         id: 4, 
-        title: 'Duplify', 
-        description: 'duplify website',
-        github: 'https://github.com/haydenfd/duplify-app',
-    },
+        title: 'File Sentry', 
+        description: 'Obsidian plugin that adds simple password protection for a user’s private files',
+        github: 'https://github.com/haydenfd/file-sentry.git',
+    },      
     { 
         id: 5, 
         title: 'Duplify', 
@@ -33,8 +33,14 @@ export const projects = [
     },      
     { 
         id: 6, 
-        title: 'Duplify', 
+        title: 'Poopoo', 
         description: 'duplify website',
         github: 'https://github.com/haydenfd/duplify-app',
-    },            
+    },  
+    { 
+        id: 5, 
+        title: 'NuppoooNuppoo', 
+        description: 'duplify website',
+        github: 'https://github.com/haydenfd/duplify-app',
+    },        
   ];
