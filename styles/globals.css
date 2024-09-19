@@ -30,3 +30,8 @@
  .navbar-section-btn.active {
    @apply border-b-primary-yellow-color;
  }
+
+
+ .emphasized-text {
+   @apply text-primary-yellow-color font-medium inline;
+ }
