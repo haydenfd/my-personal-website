@@ -5,7 +5,6 @@ export default function Layout({ children }) {
     return (
         <div className="flex flex-col min-h-screen bg-bg-dark">
             <Navbar />
-            
             <div className="flex-grow w-[50%] mx-auto shadow-lg text-white mt-[6em]">
             {children}
             </div>

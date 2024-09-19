@@ -22,6 +22,7 @@ module.exports = {
         "muted-gray-color": "#999",
         "primary-yellow-color": "#fcd37a",
         "base-button-color": "#bbb",
+        "primary-yellow-color-hover": "#fef0c4",
       }
       
     },

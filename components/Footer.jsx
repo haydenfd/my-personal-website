@@ -23,7 +23,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Hayden D&apos;Souza
           </p>
           <div className="mt-2 flex justify-center space-x-8">
-            <a href="/resume.pdf" target="_blank" rel="noopener noresfferer">
+            <a href="/resume.pdf" target="_blank" rel="noopener norefferer">
                 <IoDocumentTextSharp className="scale-[175%] hover:scale-[200%]"/>
             </a>
             <a href="https://github.com/haydenfd" className="" target="_blank" rel="noopener norefferer">
