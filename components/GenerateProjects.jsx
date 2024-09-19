@@ -7,7 +7,7 @@ const GenerateProjects = ({ projects, limit = null }) => {
   return (
     <div className="flex flex-wrap justify-between w-full mt-6">
       {displayedProjects.map((project) => (
-        <div key={project.id} className="p-4 bg-card-dark border-card-border border-2 rounded-md w-[45%] mb-4">
+        <div key={project.id} className="p-3 bg-card-dark border-card-border border-2 rounded-md w-[48.5%] mb-4">
           <div className="w-full flex flex-row justify-between">
             <h1 className="text-xl">{project.title}</h1>
             <div className="flex items-center gap-6">
