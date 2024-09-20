@@ -31,16 +31,4 @@ export const projects = [
         description: 'duplify website',
         github: 'https://github.com/haydenfd/duplify-app',
     },      
-    { 
-        id: 6, 
-        title: 'Poopoo', 
-        description: 'duplify website',
-        github: 'https://github.com/haydenfd/duplify-app',
-    },  
-    { 
-        id: 5, 
-        title: 'NuppoooNuppoo', 
-        description: 'duplify website',
-        github: 'https://github.com/haydenfd/duplify-app',
-    },        
   ];
