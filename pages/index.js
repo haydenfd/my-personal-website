@@ -23,7 +23,7 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="mt-20 flex flex-col lg:flex-row-reverse items-start gap-8 w-2/3 leading-relaxed">
+      <section className="mt-20 flex flex-col lg:flex-row-reverse items-start gap-8 w-full leading-relaxed">
         {/* <Image
           src={headshot}
           alt="Headshot"
@@ -34,10 +34,11 @@ export default function HomePage() {
         <div className="flex-1">
           <h2 className="text-3xl font-bold">Hey, I&apos;m Hayden 👋</h2>
           <p className="mt-4 text-xl">
-            I just graduated with a <p className="emphasized-text">B.S. in Computer Science</p> from <p className="emphasized-text">UCLA</p>.</p>
-            <p className="mt-4 text-xl">I am most familiar with JavaScript (React, Node) and Python (FastAPI).</p>
-            <p className="mt-4 text-xl">I&apos;m looking for entry level positions in technical roles.</p>        
-          <p className="mt-4 text-xl leading-loose">In my free time, I&apos;m discovering new EDM songs, complaining about the Lakers, working out, and trying to brew the perfect cup of coffee.</p>
+            I just graduated with a B.S. in Computer Science from UCLA.</p>
+            <p className="mt-4 text-xl">I am most familiar with JavaScript,Python, TypeScript, and C++. </p>
+            <p className="mt-4 text-xl">I&apos;ve built several full-stack web apps (both server-based and serverless), developed web scrapers, created machine learning models, fine-tuned an LLM, and written some low-level code.</p>  
+            <p className="mt-4 text-xl">I am looking for entry-level positions in technical roles (Software Engineering, Data Science).</p>        
+          <p className="mt-4 text-xl">In my free time, I&apos;m discovering new EDM songs, complaining about the Lakers, working out, and learning more about coffee.</p>
           <p className="mt-4 text-xl">
           If you know of any positions that align with my interests, or if you would simply like to connect, please feel free to reach out!
           </p>
@@ -68,7 +69,21 @@ export default function HomePage() {
             </a>                 
       </section>
       <section>
-        <div className="flex w-full justify-between">
+        <div className="flex w-full justify-between items-center">
+          <h1 className="section-title">Experience</h1>
+          <Link href="/experience" className="section-button">All Experience</Link>
+        </div>
+        <div className="flex flex-col gap-4 mt-10">
+          <h2 className="text-2xl font-semibold ital">Software Engineering Intern, 3i Infotech</h2>
+              <p className="text-xl">Proposed design of fine-tuned LLM that generates SQL commands from natural language instructions.</p>
+              <p className="text-xl">Studied the internal architectures of GPT, LLaMa models.</p>
+              <p className="text-xl">Used Python & Streamlit to build Text-to-SQL LLM (Meta&apos;s LLaMa-7b model), using 120K examples.</p>
+          <h2 className="text-2xl font-semibold">Full-Stack Intern, Players&apos; Bounty</h2>
+          <h2 className="text-2xl font-semibold">IT Consultant, UCLA IT Services</h2>
+        </div>
+      </section>      
+      <section>
+        <div className="flex w-full justify-between mt-20 items-center">
           <h1 className="section-title">Projects</h1>
           <Link href="/projects" className="section-button">All Projects</Link>
         </div>
