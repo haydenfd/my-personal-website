@@ -19,5 +19,4 @@ export const skills = [
     'Git',
     'Hugging Face',
     'AWS',
-    'Google Cloud'
 ];
