@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { projects } from '../data/projects';
-import GenerateProjects from "components/GenerateProjects";
+import GenerateProjects from "components/generateProjects";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
