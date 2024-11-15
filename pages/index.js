@@ -23,7 +23,12 @@ export default function HomePage() {
       <section className="mt-20 flex flex-col lg:flex-row-reverse items-start gap-8 w-full leading-relaxed">
         <div className="flex-1">
           <h2 className="text-3xl font-bold">Hey, I&apos;m Hayden 👋</h2>
-          <p className="mt-4 text-xl">
+            <p className="mt-4 text-lg">I just graduated from UCLA with a Bachelor&apos;s in Computer Science.</p>
+            <p className="mt-4 text-lg">Currently looking for new grad positions in Software Engineering, Data Science, and other similar technical roles.</p>
+            <p className="mt-4 text-lg">Developed a strong interest in web technologies, AI, and ML. </p>
+            <p className="mt-4 text-lg">In free time, I&apos;m looking for new EDM songs, complaining about the Lakers, and discovering local coffee spots.</p>
+            <p className="mt-4 text-lg">If you know of any positions that align with my interests, or if you would simply like to connect, please feel free to reach out!</p>
+          {/* <p className="mt-4 text-xl">
             I just graduated with a B.S. in Computer Science from UCLA.</p>
             <p className="mt-4 text-xl">I am most familiar with JavaScript,Python, TypeScript, and C++. </p>
             <p className="mt-4 text-xl">I&apos;ve built several full-stack web apps (both server-based and serverless), developed web scrapers, created machine learning models, fine-tuned an LLM, and written some low-level code.</p>  
@@ -31,7 +36,7 @@ export default function HomePage() {
           <p className="mt-4 text-xl">In my free time, I&apos;m discovering new EDM songs, complaining about the Lakers, working out, and learning more about coffee.</p>
           <p className="mt-4 text-xl">
           If you know of any positions that align with my interests, or if you would simply like to connect, please feel free to reach out!
-          </p>
+          </p> */}
         </div>
       </section>
       <section className="w-1/2 flex flex-row flex-nowrap my-20 gap-8 mx-auto justify-center">
@@ -61,20 +66,20 @@ export default function HomePage() {
         </div>
         <div className="my-6">
             <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
-              <p className="text-xl font-bold">Software Engineering Intern, 3i Infotech</p>
+              <p className="text-xl font-semibold">Software Engineering Intern, 3i Infotech</p>
             </div>
             <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
-              <p className="text-xl font-bold">Player&apos;s Bounty, Full Stack Intern</p>
+              <p className="text-xl font-semibold">Player&apos;s Bounty, Full Stack Intern</p>
             </div>
             <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
-              <p className="text-xl font-bold">UCLA IT Service, IT Consultant</p>
+              <p className="text-xl font-semibold">UCLA IT Service, IT Consultant</p>
             </div>
             <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
-              <p className="text-xl font-bold">UCLA Data Science Union, Member & Webmaster</p>
+              <p className="text-xl font-semibold">UCLA Data Science Union, Member & Webmaster</p>
             </div>
         </div>
       </section>      
-      <section className="mb-52">
+      <section className="">
         <div className="flex w-full justify-between mt-20 items-center">
           <h1 className="section-title">Projects</h1>
           <Link href="/projects" className="section-button">All Projects</Link>

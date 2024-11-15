@@ -10,7 +10,7 @@
  }
 
  .section-title {
-    @apply font-extrabold text-4xl;
+    @apply font-extrabold text-3xl;
  }
 
  .section-subtitle {

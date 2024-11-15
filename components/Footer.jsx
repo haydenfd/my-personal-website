@@ -24,13 +24,13 @@ export const Footer = () => {
           </p>
           <div className="mt-2 flex justify-center space-x-8">
             <a href="/resume.pdf" target="_blank" rel="noopener norefferer">
-                <IoDocumentTextSharp className="scale-[175%] hover:scale-[200%]"/>
+                <IoDocumentTextSharp className="scale-[175%] hover:scale-[200%] hover:text-primary-yellow-color"/>
             </a>
             <a href="https://github.com/haydenfd" className="" target="_blank" rel="noopener norefferer">
-                <AiFillGithub className="scale-[200%] hover:scale-[225%]" />
+                <AiFillGithub className="scale-[200%] hover:scale-[225%] hover:text-primary-yellow-color" />
             </a>
             <a href="https://www.linkedin.com/in/hayden-dsouza/" className="" target="_blank" rel="noopener norefferer">
-                <FaLinkedin className="scale-[175%] hover:scale-[200%]"/>
+                <FaLinkedin className="scale-[175%] hover:scale-[200%] hover:text-primary-yellow-color"/>
             </a>
             <a href="#"
             onClick={(e) => {
@@ -39,7 +39,7 @@ export const Footer = () => {
             }}
             
             >
-                <IoMdMail className="scale-[200%] hover:scale-[225%] "/>
+                <IoMdMail className="scale-[200%] hover:scale-[225%] hover:text-primary-yellow-color"/>
             </a>            
           </div>
         </div>

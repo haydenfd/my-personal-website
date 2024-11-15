@@ -17,7 +17,7 @@ const GenerateProjects = ({ projects, limit = null }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillGithub className="scale-[175%] hover:scale-[200%]" />
+                <AiFillGithub className="scale-[175%] hover:scale-[200%] hover:text-primary-yellow-color" />
               </a>
               {project.url && (
                 <a
@@ -26,7 +26,7 @@ const GenerateProjects = ({ projects, limit = null }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGlobe className="scale-[150%] hover:scale-[175%]" />
+                  <FaGlobe className="scale-[150%] hover:scale-[175%] hover:text-primary-yellow-color" />
                 </a>
               )}
             </div>
