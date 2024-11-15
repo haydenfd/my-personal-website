@@ -6,8 +6,8 @@ export const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="py-4 px-0 border-b-slate-500 border-b-2 fixed top-0 left-0 w-full z-99 opacity-100 bg-bg-dark">
-      <div className="max-w-[40%] mx-auto flex items-center justify-between">
+    <nav className="px-0 top-0 left-0 w-full z-[100] opacity-100 bg-bg-dark">
+      <div className="w-[60%] mx-auto flex items-center justify-between border-b-2 py-4 border-b-muted-gray-color">
         <div className="text-white text-lg font-bold">
           <Link href="/">
             <h1 className="text-6xl font-extrabold tracking-[-0.25em] text-primary-yellow-color hover:scale-110">

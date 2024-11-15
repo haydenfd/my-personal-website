@@ -5,11 +5,11 @@ export default function Layout({ children }) {
     return (
         <div className="flex flex-col min-h-screen bg-bg-dark">
             <Navbar />
-            <div className="flex-grow w-[40%] mx-auto shadow-lg text-white mt-[6em]">
+            <div className="flex-grow w-[60%] mx-auto shadow-lg text-white">
             {children}
             </div>
 
-            <Footer className="w-full text-center py-4" />
+            <Footer className="text-center" />
       </div>
     );
   }

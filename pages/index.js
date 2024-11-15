@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { projects } from '../data/projects';
-import GenerateProjects from "components/generateProjects";
+import GenerateProjects from "utils/generateProjects";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -35,15 +35,15 @@ export default function HomePage() {
         </div>
       </section>
       <section className="w-1/2 flex flex-row flex-nowrap my-20 gap-8 mx-auto justify-center">
-        <a href="https://github.com/haydenfd" target="_blank" rel="noopener norefferer" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white">
+        <a href="https://github.com/haydenfd" target="_blank" rel="noopener norefferer" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-primary-yellow-color hover:text-primary-yellow-color">
           <AiFillGithub className="scale-[175%] flex-1" />
           <p className="text-lg font-medium flex-1">GitHub</p>
         </a>
-        <a href="https://www.linkedin.com/in/hayden-dsouza/" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white" target="_blank" rel="noopener norefferer">
-          <FaLinkedin className="scale-[175%] flex-1"/>
+        <a href="https://www.linkedin.com/in/hayden-dsouza/" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-primary-yellow-color hover:text-primary-yellow-color" target="_blank" rel="noopener norefferer">
+          <FaLinkedin className="scale-[175%] flex-1 ml"/>
           <p className="text-lg font-medium flex-1">LinkedIn</p>
         </a>                
-        <a href="#" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white"
+        <a href="#" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-primary-yellow-color hover:text-primary-yellow-color"
             onClick={(e) => {
             e.preventDefault(); 
             copyText("haydenfds@gmail.com");
@@ -59,17 +59,22 @@ export default function HomePage() {
           <h1 className="section-title">Experience</h1>
           <Link href="/experience" className="section-button">All Experience</Link>
         </div>
-
-        {/* <div className="flex flex-col gap-4 mt-10">
-          <h2 className="text-2xl font-semibold ital">Software Engineering Intern, 3i Infotech</h2>
-              <p className="text-xl">Proposed design of fine-tuned LLM that generates SQL commands from natural language instructions.</p>
-              <p className="text-xl">Studied the internal architectures of GPT, LLaMa models.</p>
-              <p className="text-xl">Used Python & Streamlit to build Text-to-SQL LLM (Meta&apos;s LLaMa-7b model), using 120K examples.</p>
-          <h2 className="text-2xl font-semibold">Full-Stack Intern, Players&apos; Bounty</h2>
-          <h2 className="text-2xl font-semibold">IT Consultant, UCLA IT Services</h2>
-        </div> */}
+        <div className="my-6">
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+              <p className="text-xl font-bold">Software Engineering Intern, 3i Infotech</p>
+            </div>
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+              <p className="text-xl font-bold">Player&apos;s Bounty, Full Stack Intern</p>
+            </div>
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+              <p className="text-xl font-bold">UCLA IT Service, IT Consultant</p>
+            </div>
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+              <p className="text-xl font-bold">UCLA Data Science Union, Member & Webmaster</p>
+            </div>
+        </div>
       </section>      
-      <section>
+      <section className="mb-52">
         <div className="flex w-full justify-between mt-20 items-center">
           <h1 className="section-title">Projects</h1>
           <Link href="/projects" className="section-button">All Projects</Link>

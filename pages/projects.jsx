@@ -1,4 +1,4 @@
-import GenerateProjects from "components/generateProjects";
+import GenerateProjects from "utils/generateProjects";
 import { projects } from "data/projects";
 
 export default function Projects() {

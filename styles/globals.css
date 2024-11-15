@@ -19,7 +19,7 @@
 
 
  .section-button {
-    @apply p-3 rounded-lg text-lg  text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white;
+    @apply p-3 rounded-lg text-lg  text-base-button-color bg-card-dark border-2 border-card-border hover:border-primary-yellow-color hover:text-primary-yellow-color;
  }
 
  .navbar-section-btn {
