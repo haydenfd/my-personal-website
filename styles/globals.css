@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
  @tailwind base;
@@ -20,7 +19,7 @@
 
 
  .section-button {
-    @apply px-2 py-3 rounded-lg text-lg  text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white;
+    @apply p-3 rounded-lg text-lg  text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white;
  }
 
  .navbar-section-btn {

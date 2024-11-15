@@ -22,8 +22,8 @@ export const Navbar = () => {
           <Link href="/projects" className={`navbar-section-btn ${router.pathname === '/projects' ? 'active' : ''}`}>
             Projects
           </Link>
-          <Link href="/skills" className={`navbar-section-btn ${router.pathname === '/skills' ? 'active' : ''}`}>
-            Skills
+          <Link href="/resume.pdf" rel="noopener noreferrer" target="_blank" className={`navbar-section-btn ${router.pathname === '/resume' ? 'active' : ''}`}>
+            Resume
           </Link>
         </div>
       </div>

@@ -1,10 +1,7 @@
 import Link from "next/link";
 import { projects } from '../data/projects';
-import Image from 'next/image';
 import GenerateProjects from "components/GenerateProjects";
-import headshot from "../public/images/headshot.jpeg";
 import { AiFillGithub } from "react-icons/ai";
-import { IoDocumentTextSharp } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 
@@ -24,13 +21,6 @@ export default function HomePage() {
   return (
     <>
       <section className="mt-20 flex flex-col lg:flex-row-reverse items-start gap-8 w-full leading-relaxed">
-        {/* <Image
-          src={headshot}
-          alt="Headshot"
-          className="rounded-3xl"
-          width={400}
-          height={400}
-        /> */}
         <div className="flex-1">
           <h2 className="text-3xl font-bold">Hey, I&apos;m Hayden 👋</h2>
           <p className="mt-4 text-xl">
@@ -45,10 +35,6 @@ export default function HomePage() {
         </div>
       </section>
       <section className="w-1/2 flex flex-row flex-nowrap my-20 gap-8 mx-auto justify-center">
-        <a href="/resume.pdf" target="_blank" rel="noopener norefferer" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white">
-          <IoDocumentTextSharp className="scale-[175%] flex-1"/>
-          <p className="text-lg font-medium flex-1">Resume</p>
-        </a>
         <a href="https://github.com/haydenfd" target="_blank" rel="noopener norefferer" className="flex flex-row justify-between gap-4 items-center p-3 rounded-lg text-base-button-color bg-card-dark border-2 border-card-border hover:border-white hover:text-white">
           <AiFillGithub className="scale-[175%] flex-1" />
           <p className="text-lg font-medium flex-1">GitHub</p>
@@ -73,14 +59,15 @@ export default function HomePage() {
           <h1 className="section-title">Experience</h1>
           <Link href="/experience" className="section-button">All Experience</Link>
         </div>
-        <div className="flex flex-col gap-4 mt-10">
+
+        {/* <div className="flex flex-col gap-4 mt-10">
           <h2 className="text-2xl font-semibold ital">Software Engineering Intern, 3i Infotech</h2>
               <p className="text-xl">Proposed design of fine-tuned LLM that generates SQL commands from natural language instructions.</p>
               <p className="text-xl">Studied the internal architectures of GPT, LLaMa models.</p>
               <p className="text-xl">Used Python & Streamlit to build Text-to-SQL LLM (Meta&apos;s LLaMa-7b model), using 120K examples.</p>
           <h2 className="text-2xl font-semibold">Full-Stack Intern, Players&apos; Bounty</h2>
           <h2 className="text-2xl font-semibold">IT Consultant, UCLA IT Services</h2>
-        </div>
+        </div> */}
       </section>      
       <section>
         <div className="flex w-full justify-between mt-20 items-center">
