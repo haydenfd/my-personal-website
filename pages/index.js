@@ -65,17 +65,21 @@ export default function HomePage() {
           <Link href="/experience" className="section-button">All Experience</Link>
         </div>
         <div className="my-6">
-            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
               <p className="text-xl font-semibold">Software Engineering Intern, 3i Infotech</p>
+              <p className="text-xl font-semibold text-primary-yellow-color">Jul 2023 - Sep 2023</p>
             </div>
-            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
               <p className="text-xl font-semibold">Player&apos;s Bounty, Full Stack Intern</p>
+              <p className="text-xl font-semibold text-primary-yellow-color">Jun 2023 - Aug 2023</p>
             </div>
-            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
               <p className="text-xl font-semibold">UCLA IT Service, IT Consultant</p>
+              <p className="text-xl font-semibold text-primary-yellow-color">Dec 2021 - Feb 2024</p>
             </div>
-            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4">
+            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
               <p className="text-xl font-semibold">UCLA Data Science Union, Member & Webmaster</p>
+              <p className="text-xl font-semibold text-primary-yellow-color">Apr 2021 - Jun 2024</p>
             </div>
         </div>
       </section>      
