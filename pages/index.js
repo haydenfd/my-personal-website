@@ -7,7 +7,7 @@ export default function Landing() {
     <>
       <section className="page-section">
         <div>
-          <h2 className="text-3xl font-bold">Hey, I&apos;m Hayden 👋</h2>
+          <h2 className="text-3xl font-bold font-roboto-condensed">Hey, I&apos;m Hayden 👋</h2>
             <p className="mt-4 text-lg">I just graduated from UCLA with a Bachelor&apos;s in Computer Science.</p>
             <p className="mt-4 text-lg">Currently looking for new grad positions in Software Engineering, Data Science, and other similar technical roles.</p>
             <p className="mt-4 text-lg">Developed a strong interest in web technologies, AI, and ML. </p>
@@ -26,7 +26,7 @@ export default function Landing() {
       </section>
       <section className='page-section'>
         <div className="w-full">
-          <h1 className="section-title">Experience</h1>
+          <h1 className="section-title font-roboto-condensed">Experience</h1>
         </div>
         <div className="my-6">
             <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
@@ -49,7 +49,7 @@ export default function Landing() {
       </section>      
       <section className="page-section">
         <div className="w-full">
-          <h1 className="section-title">Projects</h1>
+          <h1 className="section-title font-roboto-condensed">Projects</h1>
         </div>
         <GenerateProjects limit={6} projects={projects} />
       </section>
