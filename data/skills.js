@@ -1,5 +1,5 @@
 export const skills = [
-    'JavaScript', 
+    'JavaScript',
     'Python',
     'TypeScript',
     'C++',
@@ -18,5 +18,5 @@ export const skills = [
     'Nginx',
     'Git',
     'Hugging Face',
-    'AWS',
+    'AWS'
 ];
