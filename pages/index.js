@@ -1,6 +1,6 @@
 import { projects } from '../data/projects';
 import GenerateProjects from "utils/generateProjects";
-
+import { experience } from 'data/experience';
 export default function Landing() {
 
   return (
@@ -29,7 +29,15 @@ export default function Landing() {
           <h1 className="section-title font-roboto-condensed">Experience</h1>
         </div>
         <div className="my-6">
-            <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
+          {
+            experience.map((exp, idx) => (
+              <div key={idx} className='w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between'>
+                <p className="text-xl font-semibold font-roboto-condensed">{exp.title}, {exp.company}</p>
+                <p className="text-xl font-medium text-primary-yellow-color font-roboto-condensed">{exp.term}</p>
+              </div>
+            ))
+          }
+            {/* <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
               <p className="text-xl font-semibold">Software Engineering Intern, 3i Infotech</p>
               <p className="text-xl font-semibold text-primary-yellow-color">Jul 2023 - Sep 2023</p>
             </div>
@@ -44,7 +52,7 @@ export default function Landing() {
             <div className="w-full py-4 px-3 border-2 text-white bg-card-dark border-card-border rounded-lg mb-4 flex justify-between">
               <p className="text-xl font-semibold">UCLA Data Science Union, Member & Webmaster</p>
               <p className="text-xl font-semibold text-primary-yellow-color">Apr 2021 - Jun 2024</p>
-            </div>
+            </div> */}
         </div>
       </section>      
       <section className="page-section">
