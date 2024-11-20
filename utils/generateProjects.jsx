@@ -9,7 +9,7 @@ const GenerateProjects = ({ projects, limit = null }) => {
       {displayedProjects.map((project) => (
         <div key={project.id} className="p-3 bg-card-dark border-card-border border-2 rounded-md w-[48.5%] mb-4">
           <div className="w-full flex flex-row justify-between">
-            <h1 className="text-xl font-medium">{project.title}</h1>
+            <h1 className="text-xl font-medium font-roboto-condensed">{project.title}</h1>
             <div className="flex items-center gap-6 mr-2">
               <a
                 href={project.github}

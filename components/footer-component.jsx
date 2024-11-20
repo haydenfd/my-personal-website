@@ -2,23 +2,13 @@ import { AiFillGithub } from 'react-icons/ai';
 import { IoDocumentTextSharp } from 'react-icons/io5';
 import { FaLinkedin } from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io';
+import { copyText } from 'utils/copyEmail';
 
 export const Footer = () => {
-    const copyText = (text) => {
-        navigator.clipboard.writeText(text).then(
-            () => {
-                alert('Copied haydenfds@gmail.com to clipboard!');
-            },
-            (err) => {
-                console.error('Failed to copy text: ', err);
-            }
-        );
-    };
-
     return (
-        <footer className=" w-[50%] py-8 mx-auto text-center text-white">
+        <footer className="w-[90%] md:w-[60%] lg:w-[50%] sm:w-[75%] py-8 mx-auto text-center text-white border-t-2 border-t-muted-gray-color">
             <div className="container mx-auto">
-                <p className="text-md mb-10">© {new Date().getFullYear()} Hayden D&apos;Souza</p>
+                <p className="text-md mb-4">© {new Date().getFullYear()} Hayden D&apos;Souza</p>
                 <div className="mt-2 flex justify-center space-x-8">
                     <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                         <IoDocumentTextSharp className="scale-[175%] hover:scale-[200%] hover:text-primary-yellow-color" />

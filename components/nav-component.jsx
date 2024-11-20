@@ -3,18 +3,9 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io';
 import { IoDocumentTextSharp } from 'react-icons/io5';
+import { copyText } from 'utils/copyEmail';
 
 export const Navbar = () => {
-    const copyText = (text) => {
-        navigator.clipboard.writeText(text).then(
-            () => {
-                alert('Copied haydenfds@gmail.com to clipboard!');
-            },
-            (err) => {
-                console.error('Failed to copy text: ', err);
-            }
-        );
-    };
 
     return (
         <nav className="px-0 top-0 left-0 w-full z-[100] opacity-100 bg-bg-dark">
