@@ -1,11 +1,18 @@
 import Layout from '../components/layout-component';
 import '../styles/globals.css';
+import Head from 'next/head';
 
 function App({ Component, pageProps }) {
     return (
-        <Layout>
-            <Component {...pageProps} />
-        </Layout>
+        <>
+            <Head>
+                <link rel="icon" href="/favicon.svg" />
+                <title>Hayden D&apos;Souza</title>
+            </Head>
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
+        </>
     );
 }
 
