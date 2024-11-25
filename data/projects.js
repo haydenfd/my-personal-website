@@ -36,7 +36,7 @@ export const projects = [
         id: 5,
         title: 'AirBnBruin',
         technologies: ['React', 'Node', 'Express', 'TypeScript', 'MongoDB'],
-        description: 'Streamlit app that recognizes over 150 different dog breeds by image',
+        description: 'Simple Airbnb clone for UCLA students to find sublets/rentals in the Westwood area',
         github: 'https://github.com/haydenfd/35L_Project'
     }
 ];

@@ -15,7 +15,7 @@ html {
  }
 
  .section-title {
-    @apply font-bold text-3xl;
+    @apply font-bold md:text-3xl text-xl;
  }
 
  .section-subtitle {
@@ -38,12 +38,12 @@ html {
 }
 
 .page-section {
-   @apply mt-16; 
+   @apply mt-8 md:mt-16; 
 }
 
 ::-webkit-scrollbar {
-   width: 12px;
-   height: 12px; 
+   width: 14px;
+   height: 14px; 
  }
  
 

@@ -20,7 +20,10 @@ module.exports = {
         "muted-gray-color": "#999",
         "primary-yellow-color": "#fcd37a",
         "base-button-color": "#bbb",
-      }
+      },
+      boxShadow: {
+        'yellow': '0 -2px 4px -1px #fcd37a, 0 4px 6px -1px #fcd37a, 0 2px 4px -1px #fcd37a',
+      },
       
     },
   },
