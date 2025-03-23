@@ -1,6 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
+  darkMode: 'class',
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -20,6 +21,8 @@ module.exports = {
         "muted-gray-color": "#999",
         "primary-yellow-color": "#fcd37a",
         "base-button-color": "#bbb",
+        "purp":"#365ccd",
+        "vibrant-lavender": "#9898FF",
       },
       boxShadow: {
         'yellow': '0 -2px 4px -1px #fcd37a, 0 4px 6px -1px #fcd37a, 0 2px 4px -1px #fcd37a',

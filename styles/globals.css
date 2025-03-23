@@ -12,10 +12,15 @@ html {
 
  * {
     box-sizing: border-box;
+    /* @apply text-gray-700 dark:text-white; */
  }
 
  .section-title {
     @apply font-bold md:text-3xl text-xl;
+ }
+
+ p {
+   @apply text-gray-700 dark:text-white;
  }
 
  .section-subtitle {
@@ -29,25 +34,20 @@ html {
 
 
  .emphasized-text {
-   @apply text-primary-yellow-color font-medium inline;
+   @apply dark:text-vibrant-lavender font-medium inline text-blue-600;
  }
 
 
 .navbar-contact-btn {
-   @apply rounded-lg text-base-button-color  hover:text-primary-yellow-color;
+   @apply rounded-lg dark:text-base-button-color  dark:hover:text-vibrant-lavender text-gray-800 hover:text-blue-600;
 }
 
 .page-section {
    @apply mt-8 md:mt-16; 
 }
 
-::-webkit-scrollbar {
-   width: 14px;
-   height: 14px; 
- }
- 
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
    background: #171717;
    border-radius: 0px;
  }
@@ -59,4 +59,4 @@ html {
  
  ::-webkit-scrollbar-thumb:hover {
    background: #eab256;
- }
+ } */
